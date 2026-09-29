@@ -4,7 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://freemoser.github.io',
+  site: 'https://freimoser.github.io',
   base: '/balkon-bepflanzen.de',
   integrations: [
     sitemap({
