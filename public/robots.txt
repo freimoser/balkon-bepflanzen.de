@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://balkon-bepflanzen.de/sitemap-index.xml
+Sitemap: https://freimoser.github.io/balkon-bepflanzen.de/sitemap-index.xml
