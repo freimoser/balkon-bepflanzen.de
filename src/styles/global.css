@@ -14,8 +14,8 @@
   --color-success: #2d6a4f;
   --color-hero-overlay: rgba(27, 67, 50, 0.75);
 
-  --font-sans: 'Source Sans 3', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Source Sans 3 Variable', 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Source Serif 4 Variable', 'Source Serif 4', Georgia, 'Times New Roman', serif;
 
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;

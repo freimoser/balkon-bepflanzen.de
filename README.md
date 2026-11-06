@@ -8,7 +8,7 @@ SEO-optimierter Ratgeber für Balkongärtnerei in Deutschland.
 - Vanilla CSS (kein Tailwind, kein React)
 - Content Collections (Markdown)
 - `@astrojs/sitemap`
-- Google Fonts (Source Sans 3 + Source Serif 4)
+- Local fonts via Fontsource (Source Sans 3 + Source Serif 4)
 - GitHub Pages Deployment
 
 ## Entwicklung
@@ -46,10 +46,10 @@ public/         # robots.txt, Favicons, OG-Image
 3. Optional: Custom Domain `balkon-bepflanzen.de` eintragen
 4. Bei Push auf `main` baut und deployed der Workflow automatisch
 
-## AdSense
+## Werbung
 
-Platzhalter für Google AdSense sind in `AdSlot.astro` und `BaseLayout.astro` vorbereitet.
-Nach Freischaltung Client-ID und Slot-IDs eintragen und Consent-Banner ergänzen.
+Kein AdSense oder anderes Werbenetzwerk eingebunden.
+
 
 ## Lizenz
 
