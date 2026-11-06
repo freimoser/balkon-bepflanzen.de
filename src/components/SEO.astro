@@ -52,7 +52,7 @@ const imageURL = image.startsWith('http') ? image : new URL(image, siteUrl).href
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={imageURL} />
 
-<meta name="author" content="Lisa Berger" />
+<meta name="author" content="S. Thomas Freimoser" />
 <meta name="publisher" content={siteName} />
 <link rel="alternate" hreflang="de" href={canonicalURL} />
 <link rel="alternate" hreflang="x-default" href={canonicalURL} />
@@ -66,4 +66,4 @@ const imageURL = image.startsWith('http') ? image : new URL(image, siteUrl).href
 {type === 'article' && tags.map((tag) => (
   <meta property="article:tag" content={tag} />
 ))}
-{type === 'article' && <meta property="article:author" content="Lisa Berger" />}
+{type === 'article' && <meta property="article:author" content="S. Thomas Freimoser" />}
