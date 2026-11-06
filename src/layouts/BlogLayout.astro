@@ -2,7 +2,6 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AdSlot from '../components/AdSlot.astro';
-import Newsletter from '../components/Newsletter.astro';
 import { formatDate, readingTime, getRelatedPosts, type BlogPost, slugFromId } from '../utils/blog';
 
 interface Props {
@@ -146,6 +145,4 @@ const tocHeadings = headings.filter((h) => h.depth === 2).slice(0, 12);
       </aside>
     </div>
   </article>
-
-  <Newsletter />
 </BaseLayout>
