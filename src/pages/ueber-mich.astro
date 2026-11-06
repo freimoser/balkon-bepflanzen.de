@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import Newsletter from '../components/Newsletter.astro';
 
 const personSchema = {
   '@context': 'https://schema.org',
@@ -80,6 +79,4 @@ const personSchema = {
       <a href={import.meta.env.BASE_URL + "/blog/"} class="btn btn-primary">Zu den Ratgebern</a>
     </p>
   </div>
-
-  <Newsletter />
 </BaseLayout>

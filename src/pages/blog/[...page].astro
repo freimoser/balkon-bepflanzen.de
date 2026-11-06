@@ -4,7 +4,6 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogCard from '../../components/BlogCard.astro';
 import Pagination from '../../components/Pagination.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import Newsletter from '../../components/Newsletter.astro';
 import { getPublishedPosts, type BlogPost } from '../../utils/blog';
 
 export const getStaticPaths = (async ({ paginate }) => {
@@ -55,6 +54,4 @@ const description = isFirst
       <Pagination currentPage={page.currentPage} totalPages={page.lastPage} />
     </div>
   </section>
-
-  <Newsletter />
 </BaseLayout>
